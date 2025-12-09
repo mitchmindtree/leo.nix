@@ -39,5 +39,5 @@ rustPlatform.buildRustPackage {
     openssl
   ];
   doCheck = false; # Tested in CI.
-  env.LIBCLANG_PATH = lib.makeLibraryPath [ libclang ];
+  LIBCLANG_PATH = lib.makeLibraryPath [ libclang ];
 }
