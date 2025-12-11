@@ -11,7 +11,7 @@ A Nix flake for the Leo language.
 2. Use Nix to enter a shell with the `leo` CLI:
 
    ```console
-   nix shell github:mitchmindtree/leo.nix
+   nix shell github:provablehq/leo.nix
    ```
 
 3. Check that it works with:
@@ -27,5 +27,5 @@ dependencies and environment variables to build leo and run the tests. This
 includes snarkos (with testnet enabled), openssl and pkg-config.
 
 ```console
-nix develop github:mitchmindtree/leo.nix
+nix develop github:provablehq/leo.nix
 ```
